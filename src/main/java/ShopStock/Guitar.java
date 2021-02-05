@@ -1,4 +1,4 @@
-package Instruments;
+package ShopStock;
 
 public class Guitar {
 }

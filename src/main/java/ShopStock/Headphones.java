@@ -1,4 +1,4 @@
-package Accessories;
+package ShopStock;
 
 public class Headphones {
 }
