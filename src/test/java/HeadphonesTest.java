@@ -38,4 +38,9 @@ public class HeadphonesTest {
     public void hasImpedanceLevel(){
         assertEquals(25, headphones.getImpedanceLevel());
     }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(87.5, headphones.calculateMarkup(), 0.0);
+    }
 }

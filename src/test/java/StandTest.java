@@ -27,4 +27,9 @@ public class StandTest {
     public void hasSalePrice(){
         assertEquals(20, stand.getSalePrice() , 0.0);
     }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(100, stand.calculateMarkup(), 0.0);
+    }
 }

@@ -37,4 +37,9 @@ public class GuitarStringTest {
     public void getGaugeSize(){
         assertEquals("E", guitarString.getGauge());
     }
+
+    @Test
+    public void canCalculateMarkup(){
+        assertEquals(150, guitarString.calculateMarkup(), 0.0);
+    }
 }
