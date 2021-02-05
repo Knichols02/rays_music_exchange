@@ -1,6 +1,8 @@
 package ShopStock;
 
-public class Guitar extends Instrument {
+import Behaviours.IPlay;
+
+public class Guitar extends Instrument implements IPlay {
 
     private int noOfStrings;
 
@@ -16,5 +18,9 @@ public class Guitar extends Instrument {
 
     public void setNoOfStrings(int noOfStrings) {
         this.noOfStrings = noOfStrings;
+    }
+
+    public String play() {
+        return "Twang, etc etc... lots of beautiful tunes!";
     }
 }

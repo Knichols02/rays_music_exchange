@@ -17,4 +17,8 @@ public class Piano extends Instrument {
     public String needsTuned(){
         return "Piano sounds awful!";
     }
+
+    public String canPlay(){
+        return "Chime, plink, dunnnn";
+    }
 }

@@ -17,4 +17,8 @@ public class Trumpet extends Instrument {
     public void setNoOfValves(int noOfValves) {
         this.noOfValves = noOfValves;
     }
+
+    public String canPlay(){
+        return "High pitched Trumpity Sounds";
+    }
 }
