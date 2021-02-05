@@ -14,7 +14,7 @@ public class GuitarStringTest {
     }
 
     @Test
-    public void hasItemType(){
+    public void hasGuitarString(){
         assertEquals("Ernie Ball", guitarString.getItemType());
     }
 

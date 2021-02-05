@@ -16,7 +16,7 @@ public class GuitarTest {
     }
 
     @Test
-    public void hasItemType(){
+    public void hasGuitar(){
         assertEquals("Acoustic Guitar", guitar.getItemType());
     }
 

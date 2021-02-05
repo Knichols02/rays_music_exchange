@@ -17,7 +17,7 @@ public class PianoTest {
     }
 
     @Test
-    public void hasItemType(){
+    public void hasPiano(){
         assertEquals("Kawai Digital Piano", piano.getItemType());
     }
 

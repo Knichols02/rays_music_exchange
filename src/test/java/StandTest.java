@@ -14,7 +14,7 @@ public class StandTest {
 }
 
     @Test
-    public void hasItemType(){
+    public void hasStand(){
         assertEquals("Music Stand", stand.getItemType());
     }
 

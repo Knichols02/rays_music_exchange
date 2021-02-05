@@ -1,12 +1,28 @@
 import Behaviours.ISell;
-import ShopStock.Instrument;
-import ShopStock.ShopItems;
 
 import java.util.ArrayList;
 
-public class Shop implements ISell{
+public class Shop {
 
-    public double calculateMarkup() {
-        return 0;
+    private ArrayList<ISell> stock;
+
+    public Shop(){
+        this.stock = new ArrayList<ISell>();
+    }
+
+    public ArrayList<ISell> getStock() {
+        return stock;
+    }
+
+    public void setStock(ArrayList<ISell> stock) {
+        this.stock = stock;
+    }
+
+    public void addStockItem(ISell stockItem){
+        stock.add(stockItem);
+    }
+
+    public void removeStockItem(ISell stockItem){
+        stock.remove(stockItem);
     }
 }

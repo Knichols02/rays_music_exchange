@@ -15,7 +15,7 @@ public class TrumpetTest {
     }
 
     @Test
-    public void hasItemType(){
+    public void hasTrumpet(){
         assertEquals("Swanky pTrumpet", trumpet.getItemType());
     }
 

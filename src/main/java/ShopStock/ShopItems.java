@@ -1,6 +1,8 @@
 package ShopStock;
 
-public abstract class ShopItems {
+import Behaviours.ISell;
+
+public abstract class ShopItems implements ISell {
 
     private String itemType;
     private double purchasePrice;
@@ -34,5 +36,11 @@ public abstract class ShopItems {
 
     public void setSalePrice(double salePrice) {
         this.salePrice = salePrice;
+    }
+
+    public double calculateMarkup() {
+        //saleprice - purchase price /purchase price ) multiplied by 100
+        double markupPercentage = ((salePrice - purchasePrice) / purchasePrice) * 100;
+        return markupPercentage;
     }
 }

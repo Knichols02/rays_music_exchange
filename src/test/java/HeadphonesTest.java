@@ -15,7 +15,7 @@ public class HeadphonesTest {
     }
 
     @Test
-    public void hasItemType(){
+    public void hasHeadphones(){
         assertEquals("Beats", headphones.getItemType());
     }
 
