@@ -30,6 +30,11 @@ public class HeadphonesTest {
     }
 
     @Test
+    public void getGaugeSize(){
+        assertEquals(10, headphones.getQuantity());
+    }
+
+    @Test
     public void hasImpedanceLevel(){
         assertEquals(25, headphones.getImpedanceLevel());
     }

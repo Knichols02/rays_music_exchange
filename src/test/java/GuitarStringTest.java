@@ -34,7 +34,7 @@ public class GuitarStringTest {
     }
 
     @Test
-    public void getGagueSize(){
+    public void getGaugeSize(){
         assertEquals("E", guitarString.getGauge());
     }
 }
