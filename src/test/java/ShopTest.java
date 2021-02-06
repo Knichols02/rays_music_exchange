@@ -19,8 +19,7 @@ public class ShopTest {
     @Before
     public void before(){
         raysMusicExchange = new Shop();
-        headphones = new Headphones("Beats", 80, 150,
-                10, 25 );
+        headphones = new Headphones("Beats", 80, 150, 10, 25 );
         piano = new Piano("Kawai Digital Piano", 1000, 1200,
                 "Satin Black", "Piano sounds great!");
     }
