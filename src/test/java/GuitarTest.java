@@ -1,4 +1,5 @@
 import ShopStock.Guitar;
+import ShopStock.GuitarType;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -8,6 +9,7 @@ import static org.junit.Assert.assertTrue;
 public class GuitarTest {
 
     Guitar guitar;
+    GuitarType guitarType;
 
     @Before
 
@@ -17,7 +19,7 @@ public class GuitarTest {
 
     @Test
     public void hasGuitar(){
-        assertEquals("Acoustic Guitar", guitar.getItemType());
+        assertEquals(guitarType.ACOUSTIC, guitar.getItemType());
     }
 
     @Test
