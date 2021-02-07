@@ -19,8 +19,7 @@ public class GuitarTest {
 
     @Test
     public void hasGuitar(){
-        assertEquals(guitarType.ACOUSTIC, guitar.getItemType());
-    }
+        assertEquals("Acoustic Guitar", guitar.getItemType()); }
 
     @Test
     public void hasPurchasePrice(){
@@ -43,9 +42,7 @@ public class GuitarTest {
     }
 
     @Test
-    public void canPlay(){
-        assertEquals("Twang, etc etc... lots of beautiful tunes!", guitar.play());
-    }
+    public void canPlay(){ assertEquals("Twang, strum... lots of beautiful tunes!", guitar.play()); }
 
     @Test
     public void canCalculateMarkup(){

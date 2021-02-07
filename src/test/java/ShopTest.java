@@ -62,4 +62,9 @@ public class ShopTest {
         raysMusicExchange.removeStockItem(trumpet);
         assertEquals(0, raysMusicExchange.countStock());
     }
+
+    @Test
+    public void canCalculateProfit(){
+        assertEquals(200, piano.calculateProfit(), 0.0);
+    }
 }

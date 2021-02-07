@@ -17,4 +17,5 @@ public class Headphones extends Accessories {
     public void setImpedance(int impedance) {
         this.impedance = impedance;
     }
+
 }

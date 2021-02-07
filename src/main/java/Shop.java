@@ -29,4 +29,5 @@ public class Shop {
     public int countStock(){
         return stock.size();
     }
+
 }

@@ -39,8 +39,13 @@ public abstract class ShopItems implements ISell {
     }
 
     public double calculateMarkup() {
-        //saleprice - purchase price /purchase price ) multiplied by 100
+        //sale price - purchase price /purchase price ) multiplied by 100
         double markupPercentage = ((salePrice - purchasePrice) / purchasePrice) * 100;
         return markupPercentage;
+    }
+    public double calculateProfit(){
+        // sale price - purchase price = profit
+        double profit = salePrice - purchasePrice;
+        return profit;
     }
 }

@@ -1,6 +1,8 @@
 package ShopStock;
 
-public class Trumpet extends Instrument {
+import Behaviours.IPlay;
+
+public class Trumpet extends Instrument implements IPlay {
 
     private int noOfValves;
 
@@ -18,7 +20,7 @@ public class Trumpet extends Instrument {
         this.noOfValves = noOfValves;
     }
 
-    public String canPlay(){
+    public String play(){
         return "High pitched Trumpity Sounds";
     }
 }

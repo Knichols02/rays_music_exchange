@@ -21,7 +21,7 @@ public class Guitar extends Instrument implements IPlay {
     }
 
     public String play() {
-        return "Twang, etc etc... lots of beautiful tunes!";
+        return "Twang, strum... lots of beautiful tunes!";
     }
 
 }

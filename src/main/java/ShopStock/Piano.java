@@ -1,6 +1,8 @@
 package ShopStock;
 
-public class Piano extends Instrument {
+import Behaviours.IPlay;
+
+public class Piano extends Instrument implements IPlay {
 
     private String tuned;
 
@@ -18,7 +20,7 @@ public class Piano extends Instrument {
         return "Piano sounds awful!";
     }
 
-    public String canPlay(){
+    public String play(){
         return "Chime, plink, dunnnn";
     }
 }

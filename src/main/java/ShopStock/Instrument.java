@@ -1,6 +1,8 @@
 package ShopStock;
 
-public abstract class Instrument extends ShopItems{
+import Behaviours.IPlay;
+
+public abstract class Instrument extends ShopItems implements IPlay {
 
     private String colour;
 

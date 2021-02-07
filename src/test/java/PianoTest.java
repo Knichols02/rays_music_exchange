@@ -48,7 +48,7 @@ public class PianoTest {
 
     @Test
     public void canPlayPiano(){
-        assertEquals("Chime, plink, dunnnn", piano.canPlay());
+        assertEquals("Chime, plink, dunnnn", piano.play());
     }
 
     @Test

@@ -41,7 +41,7 @@ public class TrumpetTest {
 
     @Test
     public void canPlayTrumpet(){
-        assertEquals("High pitched Trumpity Sounds", trumpet.canPlay());
+        assertEquals("High pitched Trumpity Sounds", trumpet.play());
     }
 
     @Test
